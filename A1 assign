@@ -15,7 +15,7 @@ def getmarks():
 
     print("The marks are:",marks)
 
-def avgmarks():
+def averagemarks():
     global avg
     avg=0
     for i in marks:
