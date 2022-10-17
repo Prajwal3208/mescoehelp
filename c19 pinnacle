@@ -17,17 +17,17 @@ public:
 };
 class list
 {
-    node *start;
+    node *head;
 public:
     list()
     {
-        start=NULL;
+        head=NULL;
     }
 
     void display()
     {
         node *ptr;
-        ptr=start;
+        ptr=head;
         cout<<"\n info is : \n";
         while(ptr!=NULL)
         {
