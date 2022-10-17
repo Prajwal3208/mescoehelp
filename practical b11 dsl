@@ -9,6 +9,7 @@ def dis(l):
         print(i, end=" ")
     print("\n")
 
+
 def sort(l):
     size=len(l)
     for i in range(size-1):
@@ -19,6 +20,7 @@ def sort(l):
         l[i],l[min]=l[min],l[i]
         dis(l)
 
+
 def bubble(arr):
     n = len(arr)
     for i in range(n - 1):
@@ -26,6 +28,8 @@ def bubble(arr):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
         dis(arr)
+        
+        
 def main():
     list=[]
     get(list)
